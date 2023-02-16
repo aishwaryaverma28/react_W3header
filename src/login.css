@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.outer_container {
+  height: 75vh;
+}
+
+.container {
+  background-color: #1d2a35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.form_container {
+  box-shadow: 0 0 2px gray;
+  width: 30rem;
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+}
+
+.form_container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+}
+/* .form_container form {
+  line-height: 1.6rem;
+} */
+.form_container form label {
+  font-weight: bold;
+}
+.form_container form input {
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 2px gray;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+.form_container form input:focus {
+  box-shadow: 0 0 5px rgb(170, 216, 234);
+
+  outline: 4px solid rgb(170, 216, 234);
+}
+.form_container form button {
+  width: 100%;
+  background-color: #04aa6d;
+  color: #ffffff;
+  margin-left: 0;
+  margin-top: 2rem;
+  padding: 0.6rem 1rem;
+}
+.userEmail {
+  margin-top: 3rem;
+}
